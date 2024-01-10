@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart</title>
+  <style>
+    /* Add your styles for the cart items, buttons, and total here */
+  </style>
+</head>
+<body>
+
+  <div id="cart">
+    <div class="item">
+      <span>Item 1</span>
+      <button onclick="adjustQuantity('item1', 'increase')">+</button>
+      <span id="item1Quantity">1</span>
+      <button onclick="adjustQuantity('item1', 'decrease')">-</button>
+      <button onclick="deleteItem('item1')">Delete</button>
+      <button onclick="likeItem('item1')">Like</button>
+      <span id="item1Price"> $10.00</span>
+    </div>
+
+    <!-- Add more items as needed -->
+
+    <div id="total">
+      <span>Total:</span>
+      <span id="cartTotal">$10.00</span>
+    </div>
+  </div>
+
+  <script>
+    // JavaScript functions for dynamic interactions
+    function adjustQuantity(itemId, action) {
+      // Implement logic to adjust quantity
+    }
+
+    function deleteItem(itemId) {
+      // Implement logic to delete item
+    }
+
+    function likeItem(itemId) {
+      // Implement logic to toggle like status
+    }
+  </script>
+
+</body>
+</html>
